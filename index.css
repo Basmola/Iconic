@@ -1,0 +1,1459 @@
+*{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+img{
+    width: 1500px;
+    height: 700px;
+    padding-top:35px;
+}
+.Home{
+    position: relative;
+}
+.Home>ul{
+    padding-right: 150px;
+    position: absolute;
+    top:40px;
+    right:77px;
+    font-size: 90%;
+    color:rgb(255, 254, 254);
+    font-weight:500;
+}
+.Home>ul>li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.Home>ul>li>i{
+    cursor: pointer;
+}
+.images{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top:10px;
+    left: 100px;
+}
+.empty{
+    display: inline-block;
+    background-color: rgb(255, 255, 255); 
+    width:2px;
+    height: 32px;
+    position:absolute;
+    top: 50px;
+    right:280px;
+}
+.contant{
+    background-color: rgba(41, 189, 248, 0.5);
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top:250px;
+}
+.contant>h1{
+    margin-bottom:-15px;
+}
+.contant>h1,.contant>h2{
+    color:white;
+    font-weight:700;
+    font-size: 140%;
+    text-transform: uppercase;
+    margin-left: 180px;
+}
+.contant>h2{
+    padding-bottom: 20px;
+}
+.contant>p{
+    color: rgba(242, 242, 242, 0.939);
+    font-weight:200;
+    font-size: 120%;
+    margin-left:180px;
+}
+
+.Services>h2{
+    text-align: center;
+    font-size: 190%;
+    font-weight:800;
+}
+.Services >.emptyy{
+    display: inline-block;
+    background-color: rgb(31, 29, 29);
+    width: 90px;
+    height: 1px;
+    position: relative;
+    left: 724px;
+    bottom: 27px;
+}
+.Services>.emptyyy{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position:relative;
+    left: 666px;
+    bottom: 23px;}
+.Services>p{
+    color: rgba(196, 195, 195, 0.792);
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top:-2px;
+    width: 490px;
+}
+.Services-contant{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.Services-contant>div{
+    display: inline-block;
+}
+.Services-contant>div>i{
+position: relative;
+top:28px;
+font-size: 150%;
+right:60px;
+}
+.Services-contant>div>h3{
+    position: relative;
+    bottom:66px;
+    left: 30px;
+    font-size: 150%;
+}
+.Services-contant>div>p{
+    color: rgba(196, 195, 195, 0.792);
+}
+.Services-contant>div>p{
+    width: 240px;
+    margin-left:240px;
+    position: relative;
+    right: 213px;
+    bottom:60px;
+}
+.Services-contant>.tv{
+    position: relative;
+    left: 220px;
+    bottom: 10px;
+}
+.Services-contant>.settings{
+    position: relative;
+    left: 270px;
+    bottom: 10px;
+}
+
+.Services-contant>.pen{
+    position: relative;
+    left: 220px;
+    bottom: 10px;
+}
+.Services-contant>.camera{
+    position: relative;
+    left: 270px;
+    bottom: 10px;
+}
+.photos{
+    position: relative;
+    background-image: url("images/header_2.jpg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1500px;
+    height: 500px;
+}
+.photos>.black-empty{
+display: inline-block;
+width: 176px;
+height: 311px;
+background-color: rgb(70, 184, 226);
+position:absolute;
+top: 140px;
+z-index: 2;
+left: 650px;
+}
+.photos>.white-empty{
+    display: inline-block;
+    width: 202px;
+    height: 270px;
+    background-color: rgb(193, 17, 128);
+    position:absolute;
+    top: 193px;
+    z-index: 1;
+    left: 740px;
+    }
+.photos>img{
+width: 200px;
+height: 400px;
+position: relative;
+top: 65px;
+left: 640px;
+z-index:2;
+}
+.photos>.phone-white{
+    width: 200px;
+    height:350px;
+    position: relative;
+    top: 66px;
+    left: 550px;
+    z-index: 1;
+    }
+.basmola{
+    background-color: rgba(70, 184, 226, 0.772);
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top:80px;
+    left:990px;
+    padding-left: 110px;
+    color: white; 
+}
+.basmola>h4{
+    text-transform: uppercase;
+    text-align:left;
+    padding-left:10px;
+    padding-top: 40px;
+    font-size: 140%;
+    font-weight: 100;
+    
+}
+.basmola>ul{
+    padding-left:0px;
+    
+}
+.basmola>ul>li>i{
+    padding-right: 30px;
+}
+.basmola>ul>.one>i{
+    padding-right: 25px;
+}
+.basmola>ul>li{
+    list-style: none;
+    padding: 10px 10px 5px;
+    font-weight: 200;
+    font-size: 120%;
+}
+.Portfolio>h2{
+    text-align: center;
+    font-size: 190%;
+    font-weight:800;
+}
+.Portfolio>.emptyy{
+    display: inline-block;
+    background-color: rgb(31, 29, 29);
+    width: 90px;
+    height: 1.5px;
+    position: relative;
+    left: 718px;
+    bottom: 17px;
+}
+.Portfolio>.emptyyy{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position:relative;
+    left: 659px;
+    bottom: 13px;
+}
+.Portfolio>p{
+    color: rgba(109, 108, 108, 0.935);
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    width: 600px;
+    font-size: small;
+}
+.Portfolio>.pro{
+    margin-left: 40px;
+    margin-top: -10px;
+    justify-content: baseline;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.Portfolio>.pro>img{
+    width: 350px;
+    height: 250px;
+    
+}
+.Portfolio>.pro>.q{
+    width: 350px;
+    height: 250px;
+    margin-top:-50px;
+    
+}
+.Portfolio>.list>ul{
+    margin-top: 70px;
+    margin-left:250px;
+    text-transform: uppercase;
+}
+.Portfolio>.list>ul>li{
+    text-align:left;
+    list-style: none;
+    margin: 0px 10px 0px 40px;
+    width: 70px;
+    padding: 5px 30px 5px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.Portfolio>.list>ul>.Photography{
+    width: max-content;}
+.Portfolio>.list>ul>li:hover{
+    background-color: aqua;
+    border: 1px solid black;
+}
+.Portfolio>.button>.button{
+    margin: 50px 0px 0px 700px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.Portfolio>.button>.button:hover{
+    box-shadow: 0px 0px 9px rgb(23, 23, 172);
+}
+.Portfolio>.t> video{
+    width:1500px;
+    height: 900px;
+    margin-bottom: 0px;
+    margin-top: 150px;
+}
+.t>.cont{
+    background-color: rgba(41, 189, 248, 0.5);
+    width: 1500px;
+    height: 300px;
+    position:relative;
+    padding-top: 100px;
+    bottom:650px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.t>.cont>h3{
+    font-weight: 900;
+    font-size: 120%;
+    padding-left: 50px;
+}
+.t>.cont>h6{
+    font-weight: 200;
+    font-size: 70%;
+    padding-top: 30px;
+}
+.t>.cont>.button>.button{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.t>.cont>.button>.button:hover{
+    box-shadow: 0px 0px 9px rgb(23, 23, 172);
+}
+.About{
+    position:absolute;
+    bottom:150px;
+    text-align: center;
+    right: 700px;
+    
+}
+.About>h2{
+    font-weight:800;
+    font-size: 150%;
+}
+.About>.emptyy{
+    display: inline-block;
+    background-color: rgb(31, 29, 29);
+    width: 90px;
+    height: 1.5px;
+    position: absolute;
+    left: 18px;
+    bottom: -131px;
+}
+.About>.emptyyy{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position:absolute;
+    left: 58px;
+    bottom:-136px;
+}
+.About>p{
+    color: rgba(109, 108, 108, 0.935);
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 312px;
+    width: 400px;
+    right: -153px;
+    font-size: small;
+}
+.About>.us>img{
+    position: absolute;
+    top: 360px;
+    left: -641px;
+    height: 388px;
+    width: 1400px;
+}
+.conta{
+    background-color: rgba(33, 160, 210, 0.833);
+    width: 1159px;
+    display: flex;
+    justify-content: center;
+    height: 258px;
+    position: absolute;
+    left: -487px;
+    bottom: -593px;
+}
+.About>.us>.conta>.icons>.first>i,.About>.us>.conta>.num>.first>i,.About>.us>.conta>.coffe>.first>i,.About>.us>.conta>.yay>.first>i{
+    font-size: 90%;
+}
+.About>.us>.conta>.icons,.About>.us>.conta>.num,.About>.us>.conta>.coffe,.About>.us>.conta>.yay{
+    list-style: none;
+    position: relative;
+    right: 10px;
+    color: white;
+}
+.About>.us,.conta>.icons>.two,.About>.us>.conta>.num>.two,.About>.us>.conta>.coffe>.two,.About>.us>.conta>.yay>.two{
+display: block;
+padding: 20px;
+font-size: 40%;
+font-weight: 200;
+}
+.About>.us,.conta>.icons>.three,.About>.us>.conta>.num>.three,.About>.us>.conta>.coffe>.three,.About>.us>.conta>.yay>.three{
+font-size: 180%;
+font-weight: 200;
+padding: 30px 40px 20px;
+}
+.text{
+    display: inline-block;
+    position: absolute;
+    left: 44px;
+    bottom: -708px;
+}
+.text>h2{
+    font-weight: 600;
+    font-size: 100%;
+    text-transform: uppercase;
+    position: absolute;
+    left: 271px;
+    bottom: 52px;
+}
+.text>p{
+    font-size: 70%;
+    color: grey;
+    width: fit-content;
+    margin: -33px 89px;
+}
+.text>.tex>div{
+    position: relative;
+    top:111px;
+}
+.text>.tex>.o>h4{
+    position: relative;
+    top:70px;
+    right:-44px;
+    margin: -75px 55px;
+}
+.text>.tex>.n>h4{
+    position: relative;
+    top:237px;
+    right:-44px;
+    margin: -75px 55px;
+}
+.text>.tex>.o>p{
+    font-size: 70%;
+    color: rgb(21, 20, 20);
+    width:300px;
+    position: relative;
+    padding: 20px;
+    top: 121px;
+    right: -139px;
+}
+.text>.tex>.o>.emp{
+    display: inline-block;
+    width: 250px;
+    position: relative;
+    height: 1.5px;
+    background-color:rgb(186, 186, 186);
+    top: 114px;
+    right: -170px;
+}
+.text>.tex>.o>h6{
+    position: relative;
+    top: 73px;
+    left: 363px;
+    color: #a8a4a4;
+    font-size: 50%;
+}
+.text>.tex>.n>.emp{
+    display: inline-block;
+    width: 250px;
+    position: relative;
+    height: 1.5px;
+    background-color:rgb(186, 186, 186);
+    top: 304px;
+    right: -170px;
+}
+.text>.tex>.n>h6{
+    position: relative;
+    top: 262px;
+    left: 363px;
+    color: #a8a4a4;
+    font-size: 50%;
+}
+.text>.tex>.n>p{
+    font-size: 70%;
+    color: rgb(21, 20, 20);
+    width:300px;
+    position: relative;
+    padding: 20px;
+    top: 300px;
+    right: -139px;
+}
+.textt{
+    display: inline-block;
+    position: absolute;
+    left: 713px;
+    bottom:-675px;
+}
+.textt>h2{
+    font-weight: 600;
+    font-size: 100%;
+    position: absolute;
+    left: 261px;
+    bottom:13px;
+    text-transform: uppercase;
+}
+.textt>p{
+    font-size: 70%;
+    color: grey;
+    margin: 32px 72px;
+    position: relative;
+    top: 425px;
+    right: -12px;
+}
+.textt>.empto{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(65, 204, 255);
+    width: 400px;
+    height: 40px;
+    top: 463px;
+    right: -144px;
+    z-index:-1;
+}
+.textt>.e1{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(177, 177, 177);
+    width: 60px;
+    height: 40px;
+    top: 463px;
+    right: -79px;
+    z-index: 1;
+}
+.textt>.e2{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(177, 177, 177);
+    width: 120px;
+    height: 40px;
+    top: 463px;
+    right: -19px;
+    z-index: 1;
+}
+.textt>.e3{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(177, 177, 177);
+    width: 190px;
+    height: 40px;
+    top: 463px;
+    right: 51px;
+    z-index: 1
+}
+.textt>.e4{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(177, 177, 177);
+    width: 150px;
+    height: 40px;
+    top: 463px;
+    right: 9px;
+    z-index: 1;
+}
+.textt>.e5,.textt>.e6,.textt>.e7,.textt>.e8{
+    font-weight: 7200;
+}
+.textt>.e5{
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    bottom: -91px;
+    color: white;
+    width: 50px;
+    text-align: center;
+    right: 140px;
+    z-index: -2;
+    padding: 5px 0px;
+}
+.e5::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    background-color: black;
+    position: absolute;
+    left: 14px;
+    margin: 10px 0px 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black white white white;
+    z-index: 2;
+    top: 18px;}
+.textt>.e6{
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    z-index: -2;
+    padding: 5px 0px;
+    bottom:-193px;
+    color: white;
+    height: 20px;
+    right: 201px;
+    }
+.e6::before{
+        content: "";
+        width: 0px;
+        height: 0px;
+        background-color: black;
+        position: absolute;
+        left: 14px;
+        margin: 10px 0px 10px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: black white white white;
+        z-index: 2;
+        top: 20px;}
+
+.textt>.e7{
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    z-index: -2;
+    padding: 5px 0px;
+    top: 739px;
+    color: white;
+    height: 20px;
+    right: 270px;
+            }
+        .e7::before{
+                content: "";
+                width: 0px;
+                height: 0px;
+                background-color: black;
+                position: absolute;
+                left: 14px;
+                margin: 10px 0px 10px;
+                border-width: 10px;
+                border-style: solid;
+                border-color: black white white white;
+                z-index: 2;
+                top: 20px;}
+.textt>.e8{
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    text-align: center;
+    z-index: -2;
+    padding: 5px 0px;
+    top: 847px;
+    color: white;
+    height: 20px;
+    right: 228px;
+}
+.e8::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    background-color: black;
+    position: absolute;
+    left: 14px;
+    margin: 10px 0px 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black white white white;
+    z-index: 2;
+    top: 20px;
+}
+.textt>h5{
+    position: relative;
+    top: 479px;
+    right: -147px;
+    font-weight: 700;
+}
+.Pricing{
+    background-image: url(images/quote.jpg);
+    height:422px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: -1699px;
+    right: 0px;
+}
+.Pricing>p{
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 233px;
+    right: 191px;
+    font-size: 130%;
+    width: 1200px;
+    margin: 10px -62px;
+}
+.Pricing>h6{
+    color: white;
+    position: absolute;
+    top: 279px;
+    right: 741px;
+}
+.Pricing>.price>h2{
+    position: absolute;
+    color: black;
+    top: 480px;
+    right: 703px;
+    font-size: 197%;
+    font-weight: 800;
+}
+.Pricing>.price>p{
+    position: absolute;
+    color: rgb(118 117 117);
+    top: 609px;
+    right: 375px;
+    font-size: 100%;
+    font-weight: 200;
+}
+.Pricing>.price>.emptyy{
+    position: absolute;
+    width: 151px;
+    height: 2px;
+    display: inline-block;
+    background-color: black;
+    bottom: -148px;
+    right: 689px;}
+.Pricing>.price>.emptyyy{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background-color: white;
+    bottom: -154px;
+    right: 758px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.Pricing>.wow>.emptyw{
+    position: absolute;
+    width: 215px;
+    height:1.5px;
+    display: inline-block;
+    background-color: rgb(155, 215, 255);
+    bottom: -274px;
+    right: 1068px; 
+}
+.Pricing>.wow>.emptye{
+    position: absolute;
+    width: 215px;
+    height:1.5px;
+    display: inline-block;
+    background-color: rgb(155, 215, 255);
+    bottom: -274px;
+    right: 781px;
+
+}
+.Pricing>.wow>.emptyr{
+    position: absolute;
+    width: 215px;
+    height:1.5px;
+    display: inline-block;
+    background-color: rgb(155, 215, 255);
+    bottom: -274px;
+    right:482px;
+
+}
+.Pricing>.wow>.emptyt{
+    position: absolute;
+    width: 215px;
+    height:1.5px;
+    display: inline-block;
+    background-color:rgb(155, 215, 255);
+    bottom: -274px;
+    right:204px;
+}
+.Pricing>.wow>.basic{
+    list-style: none;
+}
+.Pricing>.wow>.basic>li{
+    display: inline-block;
+    padding: 0px 111px;
+    position: relative;
+    top: 717px;
+    right: -149px;
+    font-size: 103%;
+    text-transform: uppercase;
+}
+.Pricing>.wow>.basic>.li2{
+    padding: 0px 112px;
+}
+.Pricing>.wow>ul{
+    list-style: none;
+}
+.Pricing>.wow>ul>li{
+    display: inline-block;
+    position: relative;
+    top: 711px;
+    right: -142px;
+    font-size: 193%;
+}
+.Pricing>.wow>ul>.li4{
+    padding: 0px 188px;
+}
+.Pricing>.wow>ul>.li1{
+    padding: 0px 111px;
+}
+.Pricing>.wow>ul>.li3{
+    padding-left:205px;
+}
+.Pricing>.wow>ul>.li2{
+    padding-left:95px;
+}
+.Pricing>.wow>ul>li>sub{
+    font-size: 50%;
+}
+.Pricing>.wow>.emptyi{
+    position: absolute;
+    width: 215px;
+    height:1.5px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom: -382px;
+    right: 1068px; 
+}
+.Pricing>.wow>.emptyp{
+    position: absolute;
+    width: 215px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom: -382px;
+    right: 781px;
+
+}
+.Pricing>.wow>.emptyf{
+    position: absolute;
+    width: 215px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom: -382px;
+    right:482px;
+
+}
+.Pricing>.wow>.emptyd{
+    position: absolute;
+    width: 215px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom:-382px;
+    right:204px;
+
+}
+.Pricing>.wow>.feature{
+    list-style: none;
+}
+.Pricing>.wow>.feature>li{
+    display: inline-block;
+    position: relative;
+    top: 729px;
+    right: -147px;
+    font-size: 103%;
+    font-family: "Outfit", sans-serif;
+}
+.Pricing>.wow>.feature>.w1,.Pricing>.wow>.feature>.w3,.Pricing>.wow>.feature>.w4{
+    padding: 0px 97px;
+}
+.Pricing>.wow>.feature>.w2{
+    padding: 0px 88px;
+}
+.Pricing>.wow>.emptys{
+    position: absolute;
+    width: 166px;
+    height: 2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom: -452px;
+    right: 1079px;
+}
+.Pricing>.wow>.emptyx{
+    position: absolute;
+    width: 166px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom: -449px;
+    right:802px;
+
+}
+.Pricing>.wow>.emptyb{
+    position: absolute;
+    width: 166px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom: -449px;
+    right:504px;
+
+}
+.Pricing>.wow>.emptyq{
+    position: absolute;
+    width: 166px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom:-449px;
+    right:224px;
+}
+.Pricing>.wow>.Extra{
+    list-style: none;
+}
+.Pricing>.wow>.Extra>li{
+    display: inline-block;
+    position: relative;
+    top: 758px;
+    right: -141px;
+    font-size: 103%;
+    font-family: "Outfit", sans-serif;
+}
+.Pricing>.wow>.Extra>.x1{
+    padding: 0px 98px;
+}
+.Pricing>.wow>.Extra>.x2{
+    padding: 0px 83px;
+}
+.Pricing>.wow>.Extra>.x3,.Pricing>.wow>.Extra>.x4{
+    padding: 0px 96px;
+}
+.Pricing>.wow>.emptyss{
+    position: absolute;
+    width: 153px;
+    height: 2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom: -553px;
+    right: 1091px;
+}
+.Pricing>.wow>.emptyxx{
+    position: absolute;
+    width: 166px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom: -553px;
+    right:802px;
+
+}
+.Pricing>.wow>.emptybb{
+    position: absolute;
+    width: 166px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom: -553px;
+    right:504px;
+
+}
+.Pricing>.wow>.emptyqq{
+    position: absolute;
+    width: 166px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom: -553px;
+    right:224px;
+}
+.Pricing>.wow>.feature2{
+    list-style: none;
+}
+.Pricing>.wow>.feature2>li{
+    display: inline-block;
+    position: relative;
+    top:855px;
+    right: -147px;
+    font-size: 103%;
+    font-family: "Outfit", sans-serif;
+}
+.Pricing>.wow>.feature2>.w1,.Pricing>.wow>.feature2>.w3,.Pricing>.wow>.feature2>.w4{
+    padding: 0px 97px;
+}
+.Pricing>.wow>.feature2>.w2{
+    padding: 0px 88px;
+}
+.Pricing>.wow>.feature22{
+    list-style: none;
+}
+.Pricing>.wow>.feature22>li{
+    display: inline-block;
+    position: relative;
+    top: 898px;
+    right: -154px;
+    font-size: 103%;
+    font-family: "Outfit", sans-serif;
+}
+.Pricing>.wow>.feature22>.w1{
+padding-left: 114px;
+}
+.Pricing>.wow>.feature22>.w3{
+    padding-left: 237px;
+}
+.Pricing>.wow>.feature22>.w4{
+    padding-left: 225px;
+}
+.Pricing>.wow>.feature22>.w2{
+    padding-left: 217px;
+}
+.Pricing>.wow>.emptysss{
+    position: absolute;
+    width: 153px;
+    height: 2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom:-651px;
+    right: 1091px;
+}
+.Pricing>.wow>.emptyxxx{
+    position: absolute;
+    width: 166px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom:-651px;
+    right:802px;
+
+}
+.Pricing>.wow>.emptybbb{
+    position: absolute;
+    width: 166px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom:-651px;
+    right:504px;
+
+}
+.Pricing>.wow>.emptyqqq{
+    position: absolute;
+    width: 166px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom:-651px;
+    right:224px;
+}
+.Pricing>.wow>.emptyii{
+    position: absolute;
+    width: 215px;
+    height:1.5px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom:-723px;
+    right: 1055px; 
+}
+.Pricing>.wow>.emptypp{
+    position: absolute;
+    width: 215px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom:-723px;
+    right:769px;
+
+}
+.Pricing>.wow>.emptyff{
+    position: absolute;
+    width: 215px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom:-723px;
+    right:466px;
+
+}
+.Pricing>.wow>.emptydd{
+    position: absolute;
+    width: 215px;
+    height:2px;
+    display: inline-block;
+    background-color: rgb(50 173 255);
+    bottom:-723px;
+    right:182px;
+}
+.Pricing>.wow>.Buy{
+    list-style: none;
+}
+.Pricing>.wow>.Buy>li{
+    display: inline-block;
+    position: relative;
+    top: 940px;
+    padding: 10px 57px;
+    font-size: 103%;
+    font-family: "Outfit", sans-serif;
+    background-color: white;
+    border: 1px solid rgb(50 173 255);
+    cursor: pointer;
+    text-align: center;}
+.Pricing>.wow>.Buy>.w1{
+    position: relative;
+    right:-206px;
+}
+.Pricing>.wow>.Buy>.w3{
+    position: relative;
+    right: -430px;
+}
+.Pricing>.wow>.Buy>.w4{
+    position: relative;
+    right: -537px
+}
+.Pricing>.wow>.Buy>.w2{
+    position: relative;
+    right: -318px;
+}
+.Pricing>.wow>.Buy>li:hover{
+    box-shadow: 0px 0px 14px rgb(50 173 255);
+    transform: scale(1.1);
+    transition: all 0.5 ease-out;
+
+}
+.Pricing>.wow>p{
+    position: absolute;
+    color: rgb(43 39 39);
+    top: 1349px;
+    right:604px;
+    font-size: 100%;
+    font-weight: 200
+}
+.Pricing>.wow>.contact-us{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 150%;
+    position: absolute;
+    right: 672px;
+    padding: 8px 20px;
+    bottom: -1046px;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    background-color: white;
+    border:1px solid rgb(50 173 255);
+    cursor: pointer;
+}
+.Pricing>.wow>.contact-us:hover{
+    box-shadow: 0px 0px 14px rgb(50 173 255);
+    transform: scale(1.01);
+    transition: all 0.5 ease-out;
+}
+.Contact{
+    background-image: url(images/subscribe.jpg);
+    position: absolute;
+    bottom: -3271px;
+    width: 1500px;
+    height: 448px;
+    padding-top: 35px;
+}
+.Contact>p{
+    color: white;
+    position: absolute;
+    top: 237px;
+    right: 109px;
+    width: 445px;
+}
+.Contact>.form{
+    position: relative;
+}
+.Contact>.form>form{
+    position:absolute;
+    top:206px;
+    left: 204px;
+}
+.Contact>.form>form>input{
+    width: 474px;
+    height: 59px;
+    padding-left: 73px;
+    background-color: rgba(244, 244, 241, 0.1);
+    color: #6e6969;
+    font-weight: 500;
+    font-size: 108%;
+    border: 0.3px solid white;
+}
+.Contact>.form>form:focus{
+    border: 1px solid black;
+}
+.Contact>.form>form>label>i{
+    color: white;
+    font-size: 249%;
+    position: absolute;
+    top: 16px;
+    left: 17px;
+}
+.Contact>.form>form>.button{
+    padding:21px;
+    width: 234px;
+    position: absolute;
+    left: 498px;
+    cursor: pointer;
+    top: 0px;
+    background-color: rgb(29, 175, 229);
+    text-transform: capitalize;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    font-size:100%;
+    border-left: 0px;
+}
+.Contact>.form>form>.button:hover{
+    box-shadow: 1px 0px 10px white;
+}
+.Contact>.contactt>h2{
+    position: absolute;
+    color: black;
+    font-weight: 900;
+    text-transform: uppercase;
+    top: 558px;
+    right: 783px;
+    font-size: 240%;
+    width: 10px;
+    text-indent: -70px;
+}
+.Contact>.contactt>.emptyy{
+    display: inline-block;
+    background-color: rgb(31, 29, 29);
+    width: 212px;
+    height: 1.5px;
+    position: absolute;
+    top: 727px;
+    right: 652px;
+}
+.Contact>.contactt>.emptyyy{
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position:absolute;
+    top: 720px;
+    right: 749px;
+}
+.Contact>.contactt>p{
+    color: rgb(73, 73, 73);
+    position: absolute;
+    top: 737px;
+    right: 243px;
+}
+.Contact>.contactt>.formm>form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.Contact>.contactt>.formm>form>.name,.Contact>.contactt>.formm>form>.mail,.Contact>.contactt>.formm>form>textarea,.Contact>.contactt>.formm>form>.button{
+    padding: 20px;
+    width: 611px;
+    position: absolute;
+    top: 816px;
+    right: 689px;
+}
+.Contact>.contactt>.formm>form>.mail{
+    top:904px;
+}
+.Contact>.contactt>.formm>form>textarea{
+    top:993px;
+    height: 150px;
+}
+.Contact>.contactt>.formm>form>.button{
+    top: 1220px;
+    height:49px;
+    padding: 10px;
+    width: 184px;
+    cursor: pointer;
+    background-color: rgb(29, 175, 229);
+    text-transform: uppercase;
+    color: white;
+    border: 0px solid rgb(7, 71, 162);
+    text-align: center;
+    font-size: 100%
+}
+.Contact>.contactt>.formm>form>.button:hover{
+    box-shadow: 1px 0px 10px rgb(21, 39, 62);
+}
+.Contact>.contactt>.git{
+    list-style: none;
+}
+.Contact>.contactt>.git>li{
+    position: absolute;
+    font-family: "Outfit",sans-serif;
+}
+.Contact>.contactt>.git>.word{
+    text-transform: uppercase;
+    color: black;
+    font-weight:900;
+    font-size: 120%;
+    top:854px;
+    right: 514px;
+}
+.Contact>.contactt>.git>.no{
+    color:rgb(66, 66, 66);
+    top:895px;
+    right:527px;
+}
+.Contact>.contactt>.git>.no2{
+    color: rgb(66, 66, 66);
+    top: 930px;
+    right:527px;
+}
+.Contact>.contactt>.wwa{
+    list-style: none;
+}
+.Contact>.contactt>.wwa>li{
+    position: absolute;
+    font-family: "Outfit",sans-serif;
+}
+.Contact>.contactt>.wwa>.wordd{
+    text-transform: uppercase;
+    color: black;
+    font-weight:900;
+    font-size: 120%;
+    top: 1024px;
+    right:500px;
+}
+.Contact>.contactt>.wwa>.aw{
+    color:rgb(66, 66, 66);
+    top: 1069px;
+    right:495px;
+}
+.Contact>.contactt>.wwa>.add{
+    color: rgb(66, 66, 66);
+    top: 1104px;
+    right:518px;
+    font-size: 100%;
+}
+.Contact>.contactt>.wwa>.usa{
+    color: rgb(66, 66, 66);
+    top: 1173px;
+    right: 558px;
+}
+.Contact>.contactt>.wwa>.no1{
+    color: rgb(66, 66, 66);
+    top: 1138px;
+    right:516px;
+    font-size: 110%;
+}
+.Contact>.contactt>.finally{
+    position:relative;
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    height:171px;
+    width: 1500px;
+    top: 1397px;
+    background-repeat: no-repeat;
+}
+.Contact>.contactt>.finally>img{
+    height: 171px;
+    position: absolute;
+    width: 281px;
+    right: 602px;
+    bottom:-25px;
+}
+.Contact>.contactt>.yarab{
+    position:relative;
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    height:313px;
+    width: 1500px;
+    top: 1507px;
+    background-repeat: no-repeat;
+}
+.Contact>.contactt>.yarab>img{
+    height: 171px;
+    position: absolute;
+    width: 281px;
+    right: 602px;
+    bottom:170px;
+}
+.Contact>.contactt>.yarab>h3{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+    font-size: 131%;
+    position: relative;
+    top: 122px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.Contact>.contactt>.yarab>.akher-empty{
+    position: absolute;
+    width: 304px;
+    height: 1.5px;
+    display: inline-block;
+    background-color: white;
+    top: 169px;
+    left: 607px;
+}
+.Contact>.contactt>.yarab>.hanet>a{
+    text-decoration: none;
+}
+.Contact>.contactt>.yarab>.hanet>a>i{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    position: relative;
+    bottom: -133px;
+    left: 634px;
+    font-size: 150%
+}
+.Contact>.contactt>.yarab>.hanet>p{
+    position: relative;
+    bottom: -133px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.Contact>.contactt>.yarab>.hanet>p>a{
+    color: rgb(103, 214, 255);
+}
+
+
+
