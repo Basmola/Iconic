@@ -8,6 +8,7 @@ body{
 main{
     display: flex;
     justify-content: space-around;
+    
 }
 img{
     width: 1500px;
@@ -93,7 +94,7 @@ a{
     width: 90px;
     height: 1px;
     position: relative;
-    left: 724px;
+    left:708px;
     bottom: 27px;
 }
 .Services>.emptyyy{
@@ -104,7 +105,7 @@ a{
     border-radius: 50%;
     border: 1px solid black;
     position:relative;
-    left: 666px;
+    left:653px;
     bottom: 23px;}
 .Services>p{
     color: rgba(196, 195, 195, 0.792);
@@ -255,7 +256,7 @@ z-index:2;
     width: 90px;
     height: 1.5px;
     position: relative;
-    left: 718px;
+    left:708px;
     bottom: 17px;
 }
 .Portfolio>.emptyyy{
@@ -266,7 +267,7 @@ z-index:2;
     border-radius: 50%;
     border: 1px solid black;
     position:relative;
-    left: 659px;
+    left: 651px;
     bottom: 13px;
 }
 .Portfolio>p{
@@ -1281,7 +1282,7 @@ padding-left: 114px;
     color: rgb(73, 73, 73);
     position: absolute;
     top: 737px;
-    right: 243px;
+    right:367px;
 }
 .Contact>.contactt>.formm>form{
     display: flex;
@@ -1446,7 +1447,7 @@ padding-left: 114px;
 }
 .Contact>.contactt>.yarab>.hanet>p{
     position: relative;
-    bottom: -182px;
+    bottom:-182px;
     text-align: center;
     color: rgb(255, 255, 255);
 }
