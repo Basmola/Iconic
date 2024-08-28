@@ -40,6 +40,11 @@ a{
 .Home>ul>li>i{
     cursor: pointer;
 }
+.Home>ul>.h:hover,.Home>ul>.pr:hover,.Home>ul>.s:hover,.Home>ul>.p:hover,.Home>ul>.ab:hover,.Home>ul>.cont:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+
+}
 .images{
     width: 150px;
     height: 50px;
@@ -47,14 +52,60 @@ a{
     top:10px;
     left: 100px;
 }
-.empty{
-    display: inline-block;
-    background-color: rgb(255, 255, 255); 
-    width:2px;
-    height: 32px;
-    position:absolute;
-    top: 50px;
-    right:280px;
+
+.Home>ul>.ii>div>input{
+    outline: none;
+    border: none;
+    height: 30px;
+    font-weight: 300;
+    width:0px;
+    margin-right: 10px;
+    background-color: rgba(241, 241, 241, 0.958);
+    color: rgb(0, 0, 0);
+
+}
+.Home>ul>.ii>div:hover input{
+text-align:left;
+cursor: pointer;
+border-radius: 10px 0px 0px 10px;
+transition: all 1s ease;
+animation: basmol 0.2s 0s alternate 1;
+animation-fill-mode: forwards;
+
+}
+.Home>ul>.ii>div{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    height: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    background-color:rgba(220, 226, 244, 0);
+    align-items: center;
+}
+.Home>ul>.ii>div>label>i{
+    color: rgb(255, 255, 255);
+
+}
+
+@keyframes basmol{
+    0%{
+        width:0;
+    }
+    25%{
+        width:37.5px;
+    }
+    50%{
+        width:75px;  
+    }
+    75%{
+        width:112.5px;
+        
+    }
+    100%{
+    width:150px;
+    }
 }
 .contant{
     background-color: rgba(41, 189, 248, 0.5);
@@ -1135,7 +1186,13 @@ padding-left: 114px;
     background-color: white;
     border: 1px solid rgb(50 173 255);
     cursor: pointer;
-    text-align: center;}
+    text-align: center;
+    transition: all 0.5 ease-out;
+    perspective: 200px;
+    transform: scale3d(1.2,1.2,3);
+    transition: all 0.1s ease-out;
+    animation: hehe 0.9s 0.25s ease-out alternate infinite;
+    animation-fill-mode: forwards;}
 .Pricing>.wow>.Buy>.w1{
     position: relative;
     right:-206px;
@@ -1154,19 +1211,26 @@ padding-left: 114px;
 }
 .Pricing>.wow>.Buy>li:hover{
     box-shadow: 0px 0px 14px rgb(50 173 255);
-    transform: scale(1.1);
-    transition: all 0.5 ease-out;
-
+    
 }
-.Pricing>.wow>p{
+@keyframes hehe {
+    from{
+        transform: scale(1.2);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+.Pricing>.contact-us>p{
     position: absolute;
     color: rgb(43 39 39);
-    top: 1349px;
-    right:604px;
-    font-size: 100%;
-    font-weight: 200
+    top: -80px;
+    right: -221px;
+    font-size: 82%;
+    font-weight: 200;
+    width: 447px;
 }
-.Pricing>.wow>.contact-us{
+.Pricing>.contact-us{
     display: flex;
     justify-content: center;
     color: black;
@@ -1174,14 +1238,14 @@ padding-left: 114px;
     position: absolute;
     right: 672px;
     padding: 8px 20px;
-    bottom: -1046px;
+    bottom: -1135px;
     font-weight: 400;
     font-family: "Outfit", sans-serif;
     background-color: white;
     border:1px solid rgb(50 173 255);
     cursor: pointer;
 }
-.Pricing>.wow>.contact-us:hover{
+.Pricing>.contact-us:hover{
     box-shadow: 0px 0px 14px rgb(50 173 255);
     transform: scale(1.01);
     transition: all 0.5 ease-out;
@@ -1189,7 +1253,7 @@ padding-left: 114px;
 .Contact{
     background-image: url(images/subscribe.jpg);
     position: absolute;
-    bottom: -3271px;
+    bottom: -3371px;
     width: 1500px;
     height: 448px;
     padding-top: 35px;
@@ -1220,7 +1284,7 @@ padding-left: 114px;
     border: 0.3px solid white;
 }
 .Contact>.form>form:focus{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
 }
 .Contact>.form>form>label>i{
     color: white;
@@ -1454,6 +1518,93 @@ padding-left: 114px;
 .Contact>.contactt>.yarab>.hanet>p>a{
     color: rgb(103, 214, 255);
 }
+.container,.containerr,.containerrr,.containerrrr{
+    list-style: none;
+}
+.con{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, auto));
+    justify-content: center;
+    gap:45px;
+    position: relative;
+    top: 764px;
+    height: 575px;
+}
+@keyframes bas {
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1.001);
+    }
+}
+.con>.container:hover,.con>.containerr:hover,.con>.containerrr:hover,.con>.containerrrr:hover{
+    border-top: 1.5px solid rgb(103, 214, 255);
+    animation: bas 0.6s 0.25s ease-in-out alternate infinite;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+.con>.container>li,.con>.container>li,.con>.containerr>li,.con>.containerrr>li,.con>.containerrrr>li{
+padding: 20px 3px 22px 3px;
+width:220px;
+font-family: "Outfit", sans-serif;
+background-color: white;
+border: 1.5px solid rgb(50 173 255);
+cursor: pointer;
+text-align: center;
+right: 39px;
+}
+.con>.container>.buy:hover,.con>.containerr>.buy:hover,.con>.containerrr>.buy:hover,.con>.containerrrr>.buy:hover{
+    box-shadow: 1px 1px 20px rgb(50 173 255);}
+.con>.container>.feat,.con>.containerr>.feat,.con>.containerrr>.feat,.con>.containerrrr>.feat{
+        border-color: white white ;
+    }
+.con>.container>.nu,.con>.containerr>.nu,.con>.containerrr>.nu,.con>.containerrrr>.nu{
+            font-size: 270%;
+            font-weight:300;
+            text-transform: uppercase;
+            border-color: white white rgb(50 173 255);
+            position: relative;
+            right: 17px;
+        }
+        .container>ul>.nu>sup,.containerr>ul>.nu>sup,.containerrr>ul>.nu>sup,.containerrrr>ul>.nu>sup{
+            font-size: 80%;
+            font-weight: 200;
+            text-transform: uppercase;
+        }
+.con>.container>.nu>sub,.con>.containerr>.nu>sub,.con>.containerrr>.nu>sub,.con>.containerrrr>.nu>sub{
+            font-size: 50%;
+            font-weight: 200;
+            text-transform: uppercase;
+    }
+.con>.container>.basic,.con>.containerr>.basic,.con>.containerrr>.basic,.con>.containerrrr>.basic{
+        font-weight: 300;
+        font-size: 150%;
+        position: relative;
+        right:25px;
+        text-transform: uppercase;
+        border-color:rgb(50 173 255) white white ;
+}
+.con>.container>.buy,.con>.containerr>.buy,.con>.containerrr>.buy,.con>.containerrrr>.buy{
+    width: 140px;
+    position: relative;
+    top: 25px;
+    right: -18px;
+        
+    }
 
-
-
+.con>.container>.hehe,.con>.containerr>.hehe,.con>.containerrr>.hehe,.con>.containerrrr>.hehe{
+    width:150px;
+    border-color: white white rgb(50 173 255);
+    right:-17px;
+    position: relative;
+    }
+.container>ul>.buy :hover,.containerr>ul>.buy:hover{
+        border: 1px solid rgb(50 173 255);
+    }
+.con>.container>.extra,.con>.container>.no2,.con>.containerr>.extra,.con>.containerr>.no2,.con>.containerrr>.extra,.con>.containerrr>.no2,.con>.containerrrr>.extra,.con>.containerrrr>.no2,.con>.container>.feat,.con>.containerr>.feat,.con>.containerrr>.feat,.con>.containerrrr>.feat{
+        width:100px;
+        border-color: white white rgb(50 173 255);
+        position: relative;
+        right:-40px;
+    }
