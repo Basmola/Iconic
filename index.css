@@ -223,6 +223,7 @@ right:60px;
     background-repeat: no-repeat;
     background-size: cover;
     width: 1500px;
+    overflow: hidden;
     height: 500px;
 }
 .photos>.black-empty{
@@ -231,7 +232,7 @@ width: 176px;
 height: 311px;
 background-color: rgb(70, 184, 226);
 position:absolute;
-top: 140px;
+top:189px;
 z-index: 2;
 left: 650px;
 }
@@ -241,7 +242,7 @@ left: 650px;
     height: 270px;
     background-color: rgb(193, 17, 128);
     position:absolute;
-    top: 193px;
+    top:231px;
     z-index: 1;
     left: 740px;
     }
@@ -249,7 +250,7 @@ left: 650px;
 width: 200px;
 height: 400px;
 position: relative;
-top: 65px;
+top:106px;
 left: 640px;
 z-index:2;
 }
@@ -257,7 +258,7 @@ z-index:2;
     width: 200px;
     height:350px;
     position: relative;
-    top: 66px;
+    top:104px;
     left: 550px;
     z-index: 1;
     }
